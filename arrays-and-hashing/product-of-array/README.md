@@ -4,6 +4,7 @@
 
 ## Solution description
 
+### Two parses
 This problem can efficiently be solved by parsing the input list of numbers twice, once from start to end and once vice
 versa
 We'll compute the result in an integer list.
@@ -28,3 +29,7 @@ index > i.
 
 At the end of the second parsing the result list should contain the final answer.
 
+
+### One parse
+We can use the logic described at the second step and combine the two parses by using index logic and computing 
+both prefix and postfix at the same time.
