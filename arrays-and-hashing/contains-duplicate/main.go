@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(containsDuplicate([]int{1, 2, 3, 1}))
+	fmt.Println(containsDuplicate([]int{1, 2, 3, 7}))
 }
 
 func containsDuplicate(nums []int) bool {
